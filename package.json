@@ -1,0 +1,29 @@
+{
+  "name": "socketio-delegate-to-pm2-clusters",
+  "version": "1.0.0",
+  "description": "middleware for delegate events socket.io between list of pm2 clusters",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chupaca/socketio-events-delegate-to-pm2-clusters.git"
+  },
+  "keywords": [
+    "socket.io",
+    "pm2",
+    "clusters"
+  ],
+  "author": "Chupaca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chupaca/socketio-events-delegate-to-pm2-clusters/issues"
+  },
+  "homepage": "https://github.com/Chupaca/socketio-events-delegate-to-pm2-clusters#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "pm2": "^3.3.1",
+    "socket.io": "^2.2.0"
+  }
+}
